@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reaction Trainer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="menu">
+    <h1>Reaction Trainer</h1>
+    <button onclick="startGame('practice')">Practice (Endless)</button>
+    <button onclick="startGame('test')">Test (3 Rounds)</button>
+  </div>
+
+  <div id="hud" class="hidden">
+    <div>Round: <span id="round">0</span></div>
+    <div>Hits: <span id="hits">0</span></div>
+    <div>Misses: <span id="misses">0</span></div>
+    <div>Reaction Time: <span id="reaction">0</span> ms</div>
+    <button onclick="endGame()">End</button>
+  </div>
+
+  <div id="gameArea"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
