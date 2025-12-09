@@ -21,16 +21,6 @@ button {
   width: 100vw;
   height: 100vh;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#reactionBox {
-  width: 200px;
-  height: 200px;
-  background-color: red;
-  border-radius: 20px;
 }
 
 #hud {
